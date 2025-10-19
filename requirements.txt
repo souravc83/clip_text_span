@@ -1,0 +1,34 @@
+# Core PyTorch dependencies
+torch>=1.13
+torchvision
+
+# Additional dependencies from environment.yml
+timm
+einops
+ftfy
+scipy
+imageio
+h5py
+scikit-image
+scikit-learn
+opencv-python
+
+# Additional common dependencies for CLIP/vision projects
+pillow
+numpy
+matplotlib
+tqdm
+transformers
+datasets
+accelerate
+
+# For Jupyter notebook support (if needed)
+jupyter
+ipykernel
+
+# For downloading ImageNet dataset
+datasets
+
+# For CUDA support (uncomment if you have CUDA-compatible GPU)
+# torch-audio
+# torchaudio

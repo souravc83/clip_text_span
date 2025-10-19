@@ -79,6 +79,9 @@ def main(args):
         ds, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers
     )
 
+    
+    print("Data loaded. Computing PRS...")
+
     attention_results = []
     mlp_results = []
     cls_to_cls_results = []
